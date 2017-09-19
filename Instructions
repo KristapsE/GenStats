@@ -1,0 +1,49 @@
+GenStats.py is a python script for statistical model generation and testing for
+the use in DP4-type computational NMR structure elucidation.
+
+USAGE
+
+Start python in the GenStats folder, import GenStats and call GenTestModels,
+like this:
+
+import GenStats
+GenStats.GenTestModels("SetFile")
+
+Setfile is a file containing data about a set of Gaussian NMR calculations,
+that can be used to generate a stats model and then test it.
+The setfile contains 4 lines for every set of experimental NMR data that
+is to be used in the model generation.
+
+---Example---
+/scratch/ke291/BasisFunc/EzetimibeCDCl3mm 1
+PyDP4.py -s chloroform -m m --AssumeDFTDone
+Ezetimibe1 Ezetimibe2 Ezetimibe3 Ezetimibe4 EzetimibeNMR
+
+---
+The first line is path to the folder containing the Macromodel and Gaussian
+input/output files and NMR description file in DP4 format. The path is
+followed by a number, indicating which of the candidate structures given
+in the 3rd line is the correct one.
+Second line is the command for the launch of PyDP4. If you have this in
+your path, then PyDP4.py is fine, otherwise you can give the full path
+here, followed by any required arguments for solvent, conf. search software used
+(MacroModel here) etc. This line must not include arguments for the structure
+and NMR files.
+
+The third line contains structure/computation file and NMR file arguments
+for PyDP4. The last argument is the NMR file in the DP4 format, all of the
+preceeding filenames are the basenames for the candidate structure 
+Gaussian calculation files.
+
+This process assumes, that all of the DFT calculations have been finished
+before running the stat. model generation script. PyDP4 is only used
+to parse the computational results and calculate the DP4 (or other stat.
+model) probabilities. If, however, it will find that an output file is
+missing, it will try to do the actual DFT calculations, stalling the
+process.
+
+The script will generate the gaussian, KDE, RKDE, URKDE and single region
+multigaus models and then test their performance, by running the whole
+set of PyDP4 analysis again for each statistical model. It will provide
+the generated stats model to the PyDP4 through the -s switch and read
+the generated probabilities and report them to the user.

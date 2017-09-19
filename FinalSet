@@ -1,0 +1,168 @@
+/scratch/ke291/BasisFunc/EzetimibeCDCl3mm 1
+PyDP4.py -s chloroform -m m --AssumeDFTDone
+Ezetimibe1 Ezetimibe2 Ezetimibe3 Ezetimibe4 EzetimibeNMR
+
+/scratch/ke291/BasisFunc/FormoterolCDCl3mm2 1
+PyDP4.py -s chloroform -m m --AssumeDFTDone
+Formoterol1 Formoterol2 FormoterolNMR
+
+/scratch/ke291/BasisFunc/RosuvastatinMeOHmm2 1
+PyDP4.py -s methanol -m m --AssumeDFTDone
+Rosuvastatin1 Rosuvastatin2 RosuvastatinNMR
+
+/scratch/ke291/BasisFunc/SolifenacinCDCl3mm2 1
+PyDP4.py -s chloroform -m m --AssumeDFTDone
+Solifenacin1 Solifenacin2 SolifenacinNMR
+
+/scratch/ke291/BasisFunc/TadalafilCDCl3mm 1
+PyDP4.py -s chloroform -m m --AssumeDFTDone
+Tadalafil1 Tadalafil2 TadalafilNMR
+
+/scratch/ke291/BasisFunc/TestosteroneCDCl3mm 1
+PyDP4.py -s chloroform -m m --AssumeDFTDone
+Testosterone1 Testosterone2 Testosterone1NMR
+
+/scratch/ke291/BasisFunc/TiotropiumDMSOmm 1
+PyDP4.py -s dimethylsulfoxide -m m --AssumeDFTDone
+Tiotropium1 Tiotropium2 Tiotropium3 Tiotropium4 Tiotropium1NMR
+
+/scratch/ke291/BasisFunc/CapecitabineDMSOmm 1
+PyDP4.py -s dimethylsulfoxide -m m -r --AssumeDFTDone
+Capecitabine1 Capecitabine2 Capecitabine3 Capecitabine4 Capecitabine5 Capecitabine6 Capecitabine7 Capecitabine8 Capecitabine1NMR
+
+/scratch/ke291/BasisFunc/OseltamivirCDCl3mm 1
+PyDP4.py -s chloroform -m m --AssumeDFTDone
+Oseltamivir1 Oseltamivir2 Oseltamivir3 Oseltamivir4 OseltamivirNMR
+
+/scratch/ke291/BasisFunc/SwerilactonesPy 1
+PyDP4.py -s pyridine -m m --AssumeDFTDone
+1186A 1186B 1186C 1186D 1186E 1186F 1186G 1186H SwerilactoneANMR
+
+/scratch/ke291/BasisFunc/SwerilactonesPy 2
+PyDP4.py -s pyridine -m m --AssumeDFTDone
+1186A 1186B 1186C 1186D 1186E 1186F 1186G 1186H SwerilactoneBNMR
+
+/scratch/ke291/BasisFunc/TanarifuranonolCDCl3 1
+PyDP4.py -s chloroform -m m --AssumeDFTDone
+1039A 1039B 1039C 1039D Tanarifuranolol1NMR
+
+/scratch/ke291/BasisFunc/TanarifuranonolCDCl3 2
+PyDP4.py -s chloroform -m m --AssumeDFTDone
+1039A 1039B 1039C 1039D Tanarifuranolol2NMR
+
+/scratch/ke291/BasisFunc/GalbanicCDCl3 1
+PyDP4.py -s chloroform -m m --AssumeDFTDone
+1109E 1109F 1109G 1109H 1109ENMR
+
+/scratch/ke291/BasisFunc/IcetexoneCDCl3 1
+PyDP4.py -s chloroform -m m --AssumeDFTDone
+CMa CMb CMaNMR
+
+/scratch/ke291/BasisFunc/IcetexoneCDCl3 2
+PyDP4.py -s chloroform -m m --AssumeDFTDone
+CMa CMb CMbNMR
+
+/scratch/ke291/BasisFunc/TetrahydrofuransCDCl3 1
+PyDP4.py -s chloroform -m m -r --AssumeDFTDone
+1166A 1166B 1166C 1166D 1166ANMR
+
+/scratch/ke291/BasisFunc/TetrahydrofuransCDCl3 2
+PyDP4.py -s chloroform -m m -r --AssumeDFTDone
+1166A 1166B 1166C 1166D 1166BNMR
+
+/scratch/ke291/BasisFunc/TetrahydrofuransCDCl3 3
+PyDP4.py -s chloroform -m m -r --AssumeDFTDone
+1166A 1166B 1166C 1166D 1166CNMR
+
+/scratch/ke291/BasisFunc/TetrahydrofuransCDCl3 4
+PyDP4.py -s chloroform -m m -r --AssumeDFTDone
+1166A 1166B 1166C 1166D 1166DNMR
+
+/scratch/ke291/BasisFunc/ArtemisininCDCl3 1
+PyDP4.py -s chloroform -m m --AssumeDFTDone
+Artemisinin1 Artemisinin2 Artemisinin3 Artemisinin4 Artemisinin5 Artemisinin6 Artemisinin7 Artemisinin8 Artemisinin9 Artemisinin10 Artemisinin11 Artemisinin12 Artemisinin13 Artemisinin14 Artemisinin15 Artemisinin16 Artemisinin17 Artemisinin18 Artemisinin19 Artemisinin20 Artemisinin21 Artemisinin22 Artemisinin23 Artemisinin24 Artemisinin25 Artemisinin26 Artemisinin27 Artemisinin28 Artemisinin29 Artemisinin30 Artemisinin31 Artemisinin32 ArtemisininNMR
+
+/scratch/ke291/BasisFunc/DidanosineDMSO 1
+PyDP4.py -s dimethylsulfoxide -m m -r --AssumeDFTDone
+Didanosine1 Didanosine2 DidanosineNMR
+
+/scratch/ke291/BasisFunc/ZidovudineDMSO 1
+PyDP4.py -s dimethylsulfoxide -m m -r --AssumeDFTDone
+Zidovudine1 Zidovudine2 Zidovudine3 Zidovudine4 ZidovudineNMR
+
+/scratch/ke291/BasisFunc/EntecavirDMSO 1
+PyDP4.py -s dimethylsulfoxide -m m -r --AssumeDFTDone
+Entecavir1 Entecavir2 Entecavir3 Entecavir4 EntecavirNMR
+
+/scratch/ke291/BasisFunc/CanagliflozinDMSO 1
+PyDP4.py -s dimethylsulfoxide -m m --AssumeDFTDone
+Canagliflozin1 Canagliflozin2 Canagliflozin3 Canagliflozin4 Canagliflozin5 Canagliflozin6 Canagliflozin7 Canagliflozin8 Canagliflozin9 Canagliflozin10 Canagliflozin11 Canagliflozin12 Canagliflozin13 Canagliflozin14 Canagliflozin15 Canagliflozin16 CanagliflozinNMR
+
+/scratch/ke291/BasisFunc/SimilanamideCDCl3 3
+PyDP4.py -s chloroform -m m --AssumeDFTDone
+Similanamide1 Similanamide2 Similanamide3 Similanamide4 Similanamide5 Similanamide6 Similanamide7 Similanamide8 Similanamide9 Similanamide10 Similanamide11 Similanamide12 Similanamide13 Similanamide14 Similanamide15 Similanamide16 SimilanamideNMR
+
+/scratch/ke291/BasisFunc/LopinavirCDCl3 1
+PyDP4.py -s chloroform -m m --AssumeDFTDone
+Lopinavir1 Lopinavir2 Lopinavir3 Lopinavir4 Lopinavir5 Lopinavir6 Lopinavir7 Lopinavir8 LopinavirNMR
+
+/scratch/ke291/BasisFunc/CitrinadinBCDCl3 1
+PyDP4.py -s chloroform -m m --AssumeDFTDone
+CitrinadinB1 CitrinadinB2 CitrinadinB3 CitrinadinB4 CitrinadinB5 CitrinadinB6 CitrinadinB7 CitrinadinB8 CitrinadinB9 CitrinadinB10 CitrinadinB11 CitrinadinB12 CitrinadinB13 CitrinadinB14 CitrinadinB15 CitrinadinB16 CitrinadinB17 CitrinadinB18 CitrinadinB19 CitrinadinB20 CitrinadinB21 CitrinadinB22 CitrinadinB23 CitrinadinB24 CitrinadinB25 CitrinadinB26 CitrinadinB27 CitrinadinB28 CitrinadinB29 CitrinadinB30 CitrinadinB31 CitrinadinB32 CitrinadinBNMR
+
+/scratch/ke291/BasisFunc/DarunavirCDCl3 1
+PyDP4.py -s chloroform -m m --AssumeDFTDone
+Darunavir1 Darunavir2 Darunavir3 Darunavir4 Darunavir5 Darunavir6 Darunavir7 Darunavir8 Darunavir9 Darunavir10 Darunavir11 Darunavir12 Darunavir13 Darunavir14 Darunavir15 Darunavir16 DarunavirNMR
+
+/scratch/ke291/BasisFunc/NankakurineMeOH 1
+PyDP4.py -s methanol -m m --AssumeDFTDone --Renum NankakurineRenum
+1113A 1113B Nankakurine1NMRreal
+
+/scratch/ke291/BasisFunc/AspergillideCDCl3 3
+PyDP4.py -s chloroform -m m --AssumeDFTDone --Renum AspergillideRenum
+1036A 1036B 1036C 1036D 1036E 1036F 1036G 1036H AspergillideACDCl3NMR
+
+/scratch/ke291/BasisFunc/AspergillideC6D6 1
+PyDP4.py -s benzene -m m --AssumeDFTDone --Renum AspergillideRenum
+1036A 1036B 1036C 1036D 1036E 1036F 1036G 1036H AspergillideBC6D6NMR
+
+/scratch/ke291/BasisFunc/AldolsCDCl3 1
+PyDP4.py -s chloroform -m m --AssumeDFTDone --Renum CallipeltinRenumber
+1012L 1012M 1012N 1012O CallipeltinRRRNMR
+
+/scratch/ke291/BasisFunc/AldolsCDCl3 2
+PyDP4.py -s chloroform -m m --AssumeDFTDone --Renum CallipeltinRenumber
+1012L 1012M 1012N 1012O CallipeltinSRRNMR
+
+/scratch/ke291/BasisFunc/AldolsCDCl3 3
+PyDP4.py -s chloroform -m m --AssumeDFTDone --Renum CallipeltinRenumber
+1012L 1012M 1012N 1012O CallipeltinSRSNMR
+
+/scratch/ke291/BasisFunc/AldolsCDCl3 4
+PyDP4.py -s chloroform -m m --AssumeDFTDone --Renum CallipeltinRenumber
+1012L 1012M 1012N 1012O CallipeltinRRSNMR
+
+/scratch/ke291/BasisFunc/NeopeltolideMeOH 1
+PyDP4.py -s methanol -m m --AssumeDFTDone --Renum NeopeltolideRenum
+1024C 1024D 1034A 1034B 1034C 1034D 1035A 1035B NeopeltolidePropNMR
+
+/scratch/ke291/BasisFunc/NeopeltolideMeOH 2
+PyDP4.py -s methanol -m m --AssumeDFTDone --Renum NeopeltolideRenum
+1024C 1024D 1034A 1034B 1034C 1034D 1035A 1035B NeopeltolideNMR
+
+/scratch/ke291/BasisFunc/CaesaljapinCDCl3 1
+PyDP4.py -s chloroform -m m --AssumeDFTDone
+Caesaljapin1 Caesaljapin2 Caesaljapin3 Caesaljapin4 Caesaljapin1NMR
+
+/scratch/ke291/BasisFunc/HydroxycurvularinAcetone 1
+PyDP4.py -s acetone -m m --AssumeDFTDone
+hydroxycurvularin1 hydroxycurvularin2 hydroxycurvularin1NMR
+
+/scratch/ke291/BasisFunc/HydroxycurvularinAcetone 2
+PyDP4.py -s acetone -m m --AssumeDFTDone
+hydroxycurvularin1 hydroxycurvularin2 hydroxycurvularin2NMR
+
+/scratch/ke291/BasisFunc/PhomolideGAcetone 1
+PyDP4.py -s acetone -m m --AssumeDFTDone
+PhomolideG1 PhomolideG2 PhomolideG3 PhomolideG4 PhomolideG5 PhomolideG6 PhomolideG7 PhomolideG8 PhomolideG1NMR
+
